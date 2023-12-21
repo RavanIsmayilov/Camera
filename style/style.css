@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.general {
+  padding: 0px 0px 0px 50px;
+  background-color: rgb(167, 44, 44);
+  border-radius: 20px;
+}
+
+.container {
+  width: 700px;
+  height: 400px;
+  background-color: lightcoral;
+  position: relative;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: absolute;
+  right: 8%;
+  bottom: 10%;
+  background: none;
+}
+
+.int_circle {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  left: 5%;
+  top: 5%;
+  transition: 0.2s ease-in-out;
+}
+
+.half_circle {
+  width: 30px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 35%;
+  left: 70%;
+}
+
+.button {
+  width: 80px;
+  height: 35px;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+  left: 9%;
+  bottom: 4.5%;
+  cursor: pointer;
+  z-index: 200;
+}/*# sourceMappingURL=style.css.map */
